@@ -4055,9 +4055,9 @@
 			)
 		)
 	)
-	(global_label "SPI_CS"
+	(global_label "CXD5610GF_CS"
 		(shape input)
-		(at 111.76 85.09 180)
+		(at 130.81 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4065,9 +4065,9 @@
 			)
 			(justify right)
 		)
-		(uuid "789f3ba3-d7d8-492c-8ddc-d556bda674ea")
+		(uuid "818e7a3d-009c-4976-9145-d5b8b91e9f23")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.2434 85.09 0)
+			(at 113.4316 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4091,6 +4091,29 @@
 		(uuid "932ff73f-35e6-413a-9f7e-16dd72118f8c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 100.1267 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "CXD5610GF_CS"
+		(shape input)
+		(at 111.76 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2f33df9-6cb2-4f4a-a9d1-ccb4088b6950")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.3816 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5024,6 +5047,173 @@
 		)
 	)
 	(symbol
+		(lib_id "Symbols:ERJU02F1002X")
+		(at 130.81 130.81 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2dcc4eff-c90d-42ac-befb-1f728198f590")
+		(property "Reference" "R32"
+			(at 133.9849 141.605 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 136.5249 141.605 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Footprints:ERJS02_U02__0402_"
+			(at 34.62 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+			(at -65.38 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "PANASONIC ELECTRONIC COMPONENTS - ERJ-U02F1002X - RES, THICK FILM, 10K, 1%, 0.1W, 0402, REEL"
+			(at 130.81 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.4"
+			(at -265.38 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at -365.38 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJU02F1002X"
+			(at -465.38 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at -565.38 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at -665.38 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at -765.38 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at -865.38 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "1ef3b0ca-baf9-4bc3-a64f-e608e758cf37")
+		)
+		(pin "1"
+			(uuid "50e3618e-112e-4c48-9e5d-cffb0bdfc8a1")
+		)
+		(instances
+			(project "watch"
+				(path "/6368ae2c-bc46-42c6-99d7-85df2bed1af6"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V2")
 		(at 111.76 77.47 90)
 		(unit 1)
@@ -5607,6 +5797,85 @@
 			(project "watch"
 				(path "/6368ae2c-bc46-42c6-99d7-85df2bed1af6"
 					(reference "#PWR0214")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 130.81 148.59 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41c85f07-dcbf-4b82-bf11-8daf83505262")
+		(property "Reference" "#PWR0336"
+			(at 130.81 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 130.8099 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 130.81 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "64981c0c-c972-45e8-b404-22b9a5defa55")
+		)
+		(instances
+			(project "watch"
+				(path "/6368ae2c-bc46-42c6-99d7-85df2bed1af6"
+					(reference "#PWR0336")
 					(unit 1)
 				)
 			)

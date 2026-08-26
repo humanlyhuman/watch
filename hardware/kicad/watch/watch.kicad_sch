@@ -11974,6 +11974,75 @@
 			)
 		)
 	)
+	(global_label "AS7058_CSXN"
+		(shape input)
+		(at 260.35 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8bf5255f-01aa-4452-b6fd-f8ed861f8fc8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.4584 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CXD5610GF_CS"
+		(shape input)
+		(at 260.35 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c64a175-b9bd-4f65-b637-7c95d7f06bb0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.7284 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ICU-10201_CS"
+		(shape input)
+		(at 260.35 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9486abea-8bc7-4ee0-bb65-4a9b011e58ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.6075 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "MAX77714_SHDN"
 		(shape input)
 		(at 207.01 124.46 180)
@@ -12066,6 +12135,29 @@
 			)
 		)
 	)
+	(global_label "LSM6DSV80XTR_CS"
+		(shape input)
+		(at 260.35 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bede2c51-f649-480b-981f-3795f13a9e8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.115 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "AS7058_INT"
 		(shape input)
 		(at 260.35 182.88 0)
@@ -12079,29 +12171,6 @@
 		(uuid "dc90d461-c766-426f-9015-06919148aa29")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 274.3418 182.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "SPI_CS"
-		(shape input)
-		(at 260.35 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dce0a7a8-d64a-4b9d-9206-947de4ed14e1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.8666 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

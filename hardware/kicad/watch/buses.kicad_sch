@@ -407,207 +407,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Symbols:ERJU02F1002X"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 13.97 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "ERJU02F1002X"
-				(at 13.97 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "ERJS02_U02_(0402)"
-				(at 13.97 -96.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
-				(at 13.97 -196.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "PANASONIC ELECTRONIC COMPONENTS - ERJ-U02F1002X - RES, THICK FILM, 10K, 1%, 0.1W, 0402, REEL"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "0.4"
-				(at 13.97 -396.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Panasonic"
-				(at 13.97 -496.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "ERJU02F1002X"
-				(at 13.97 -596.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 13.97 -696.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 13.97 -796.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 13.97 -896.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 13.97 -996.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "ERJU02F1002X_1_1"
-				(rectangle
-					(start 5.08 1.27)
-					(end 12.7 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+1V8"
 			(power global)
 			(pin_numbers
@@ -814,12 +613,6 @@
 		)
 		(uuid "e6f36a00-68f7-402c-bf09-814919a4d069")
 	)
-	(junction
-		(at 54.61 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7fb42ea-4d55-4f64-adb3-acbc97a654ca")
-	)
 	(bus_entry
 		(at 54.61 185.42)
 		(size 2.54 2.54)
@@ -830,7 +623,7 @@
 		(uuid "09839379-6413-4956-a118-158862404bb5")
 	)
 	(bus_entry
-		(at 69.85 140.97)
+		(at 55.88 140.97)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -848,7 +641,7 @@
 		(uuid "5dbc9442-0fe3-4725-84d9-0f64047bd7c9")
 	)
 	(bus_entry
-		(at 59.69 140.97)
+		(at 45.72 140.97)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -866,15 +659,6 @@
 		(uuid "a8756fcc-6cfd-45cb-95be-e749cb52ff96")
 	)
 	(bus_entry
-		(at 54.61 140.97)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a91dde93-a363-4181-95c0-cbc5a9ddc834")
-	)
-	(bus_entry
 		(at 58.42 185.42)
 		(size 2.54 2.54)
 		(stroke
@@ -884,7 +668,7 @@
 		(uuid "e57477c6-336d-493f-b897-fd8bb020445c")
 	)
 	(bus_entry
-		(at 64.77 140.97)
+		(at 50.8 140.97)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -894,7 +678,7 @@
 	)
 	(bus
 		(pts
-			(xy 57.15 143.51) (xy 72.39 143.51)
+			(xy 43.18 143.51) (xy 58.42 143.51)
 		)
 		(stroke
 			(width 0)
@@ -904,7 +688,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 139.7) (xy 64.77 140.97)
+			(xy 50.8 139.7) (xy 50.8 140.97)
 		)
 		(stroke
 			(width 0)
@@ -944,16 +728,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 139.7) (xy 54.61 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a9cb0af-b51c-4c9a-a265-9b485161f99e")
-	)
-	(wire
-		(pts
 			(xy 54.61 180.34) (xy 54.61 185.42)
 		)
 		(stroke
@@ -964,7 +738,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 139.7) (xy 69.85 140.97)
+			(xy 55.88 139.7) (xy 55.88 140.97)
 		)
 		(stroke
 			(width 0)
@@ -994,7 +768,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 139.7) (xy 59.69 140.97)
+			(xy 45.72 139.7) (xy 45.72 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1027,7 +801,7 @@
 	)
 	(global_label "SPI_MOSI"
 		(shape input)
-		(at 64.77 139.7 90)
+		(at 50.8 139.7 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1037,7 +811,7 @@
 		)
 		(uuid "14aeea77-fe97-4afc-ba2f-1e722fcb217c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.77 128.0667 90)
+			(at 50.8 128.0667 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1073,7 +847,7 @@
 	)
 	(global_label "SPI{SCLK,MOSI,MISO,CS}"
 		(shape input)
-		(at 72.39 143.51 0)
+		(at 58.42 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1083,7 +857,7 @@
 		)
 		(uuid "6fb76ad7-6c3c-4fda-b1b8-c2ce4dd95587")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.4168 143.51 0)
+			(at 84.4468 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1142,7 +916,7 @@
 	)
 	(global_label "SPI_MISO"
 		(shape input)
-		(at 59.69 139.7 90)
+		(at 45.72 139.7 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1152,7 +926,7 @@
 		)
 		(uuid "af784698-16b2-4117-a6cb-9c0202976ad2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.69 128.0667 90)
+			(at 45.72 128.0667 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1186,32 +960,9 @@
 			)
 		)
 	)
-	(global_label "SPI_CS"
-		(shape input)
-		(at 54.61 139.7 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dc2a735b-9259-4381-bf27-80deae93166f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.61 130.1834 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "SPI_SCLK"
 		(shape input)
-		(at 69.85 139.7 90)
+		(at 55.88 139.7 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1221,7 +972,7 @@
 		)
 		(uuid "e7d4d1bb-9fc7-48d4-9b83-21d129d27880")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.85 127.8853 90)
+			(at 55.88 127.8853 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1252,85 +1003,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 36.83 140.97 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "407542a3-fcf4-4cab-8744-eec94a17ec66")
-		(property "Reference" "#PWR052"
-			(at 40.64 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 33.02 140.9699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 36.83 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9f712d16-3e93-4df0-8384-97dd54afe960")
-		)
-		(instances
-			(project "watch"
-				(path "/91cfd9a2-1b29-418b-99eb-512a0f2d34d7"
-					(reference "#PWR052")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -1495,173 +1167,6 @@
 			(project "watch"
 				(path "/91cfd9a2-1b29-418b-99eb-512a0f2d34d7"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Symbols:ERJU02F1002X")
-		(at 54.61 140.97 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6033625c-1b43-4cde-a7ed-f991ca4016d8")
-		(property "Reference" "R8"
-			(at 43.815 144.1449 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 43.815 146.6849 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Footprints:ERJS02_U02__0402_"
-			(at 40.64 44.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
-			(at 40.64 -55.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "PANASONIC ELECTRONIC COMPONENTS - ERJ-U02F1002X - RES, THICK FILM, 10K, 1%, 0.1W, 0402, REEL"
-			(at 54.61 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.4"
-			(at 40.64 -255.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at 40.64 -355.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ERJU02F1002X"
-			(at 40.64 -455.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 40.64 -555.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 40.64 -655.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 40.64 -755.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 40.64 -855.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "61fae2ae-414d-493a-ac09-01714a5656cd")
-		)
-		(pin "1"
-			(uuid "8691bb6e-13c6-4619-939f-281301c4a3dd")
-		)
-		(instances
-			(project "watch"
-				(path "/91cfd9a2-1b29-418b-99eb-512a0f2d34d7"
-					(reference "R8")
 					(unit 1)
 				)
 			)
